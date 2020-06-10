@@ -1,0 +1,22 @@
+C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/PSoC_FatFs/FatFs.cylib/CortexM3/ARM_GCC_541/Debug/diskio.o : C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/diskio.c C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/diskio.h C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ff.h C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ffconf.h 
+
+C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/diskio.c : 
+
+C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/diskio.h : 
+
+C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ff.h : 
+
+C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ffconf.h : 
+
+C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/PSoC_FatFs/FatFs.cylib/CortexM3/ARM_GCC_541/Debug/ff.o : C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/diskio.h C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ff.c C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ff.h C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ffconf.h 
+
+C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ff.c : 
+
+C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/PSoC_FatFs/FatFs.cylib/CortexM3/ARM_GCC_541/Debug/ffsystem.o : C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ff.h C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ffconf.h C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ffsystem.c 
+
+C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ffsystem.c : 
+
+C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/PSoC_FatFs/FatFs.cylib/CortexM3/ARM_GCC_541/Debug/ffunicode.o : C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ff.h C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ffconf.h C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ffunicode.c 
+
+C:/Users/wa2n8/Desktop/PSoC/PSoC5LP-FatFs-with-FreeRTOS/ff14/source/ffunicode.c : 
+
