@@ -1,7 +1,6 @@
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|78b2ee00-61cb-4b20-8573-e689a1cf6437
-C:\Users\wa2n8\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|3df95321-726e-453c-a09e-be22b62fc769
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|b1aacc86-67e1-46a0-a396-a6fe83c9159d
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|c41be96e-0d25-4e35-81a4-eb20d9c4db78
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|d03237cb-67b7-4176-97f9-5d6d4f15e714
-C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\baremetal.cyprj|4b64423e-cc97-4aac-ae7c-87d558dcdf0b
-C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\FatFs.cylib\FatFs.cyprj|91678483-a016-459b-8aab-4b34a6ab0167
+C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\baremetal.cyprj|395a10f7-a505-4f2e-8ed3-1b8f8f3ed226
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|739f7ba2-c4af-4ed7-a406-5a91811d9564
+C:\Users\wa2n8\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|db52c849-454a-4516-b9ca-e2d70dbfbc12
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|1ed3ea7c-3769-4026-bdee-f7b216e35848
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|cc3d3c9e-5bd2-4c9a-9a60-78f6b894a3a5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|8e3cbee8-519f-4271-80b4-76a29fa23a85

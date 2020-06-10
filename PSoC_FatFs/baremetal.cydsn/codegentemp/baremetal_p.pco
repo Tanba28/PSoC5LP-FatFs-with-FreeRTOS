@@ -1,4 +1,28 @@
 dont_use_io iocell 1 0
 dont_use_io iocell 1 1
-dont_use_io iocell 1 3
+set_location "\SPIM_SD:BSPIM:ld_ident\" macrocell 0 1 1 2
+set_location "\SPIM_SD:BSPIM:rx_status_6\" macrocell 0 2 0 2
+set_location "Net_7" macrocell 0 2 1 0
+set_location "\SPIM_SD:BSPIM:RxStsReg\" statusicell 0 2 4 
+set_location "\SPIM_SD:BSPIM:BitCounter\" count7cell 0 1 7 
+set_location "\SPIM_SD:BSPIM:tx_status_4\" macrocell 0 1 0 3
+set_location "\SPIM_SD:BSPIM:state_2\" macrocell 0 1 1 1
+set_location "\SPIM_SD:BSPIM:load_cond\" macrocell 0 2 0 0
+set_location "\SPIM_SD:BSPIM:TxStsReg\" statusicell 1 2 4 
+set_location "Net_23" macrocell 0 1 0 0
+set_location "\SPIM_SD:BSPIM:state_0\" macrocell 0 2 0 1
+set_location "\SPIM_SD:BSPIM:tx_status_0\" macrocell 0 1 0 2
+set_location "\SPIM_SD:BSPIM:state_1\" macrocell 0 1 1 0
+set_location "\SPIM_SD:BSPIM:load_rx_data\" macrocell 0 1 0 1
+set_location "\SPIM_SD:BSPIM:cnt_enable\" macrocell 1 2 0 0
+set_location "\SPIM_SD:BSPIM:sR8:Dp:u0\" datapathcell 0 1 2 
+set_location "Net_25" macrocell 0 2 1 1
 set_location "ClockBlock" clockblockcell -1 -1 0
+set_io "SD_SCLK(0)" iocell 1 4
+set_io "SD_MISO(0)" iocell 1 5
+set_io "SD_CS(0)" iocell 1 2
+# Note: port 12 is the logical name for port 7
+set_io "LED_0(0)" iocell 12 4
+# Note: port 12 is the logical name for port 7
+set_io "LED_1(0)" iocell 12 5
+set_io "SD_MOSI(0)" iocell 1 3

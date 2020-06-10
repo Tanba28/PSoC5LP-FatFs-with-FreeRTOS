@@ -8,7 +8,6 @@
 <files />
 <projects>
 <v>.\baremetal.cydsn\baremetal.cyprj</v>
-<v>.\FatFs.cylib\FatFs.cyprj</v>
 </projects>
 <workspace_id v="40f55c14-dbb0-465b-92e7-a8acc9c0bc9d" />
 <WriteAppVersionLastSavedWith v="4.2.0.641" />

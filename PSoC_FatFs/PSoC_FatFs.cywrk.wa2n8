@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC_FatFs\FatFs\Source Files\diskio.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>PSoC_FatFs</v>
 <v>PSoC_FatFs\baremetal</v>
@@ -28,21 +28,16 @@
 <v>PSoC_FatFs\baremetal\baremetal.cydwr\Directives</v>
 <v>PSoC_FatFs\baremetal\baremetal.cydwr\Flash Security</v>
 <v>PSoC_FatFs\baremetal\baremetal.cydwr\EEPROM</v>
+<v>PSoC_FatFs\baremetal\FatFs</v>
+<v>PSoC_FatFs\baremetal\FatFs\diskio.c</v>
+<v>PSoC_FatFs\baremetal\FatFs\diskio.h</v>
+<v>PSoC_FatFs\baremetal\FatFs\ff.c</v>
+<v>PSoC_FatFs\baremetal\FatFs\ff.h</v>
+<v>PSoC_FatFs\baremetal\FatFs\ffconf.h</v>
+<v>PSoC_FatFs\baremetal\FatFs\ffsystem.c</v>
 <v>PSoC_FatFs\baremetal\Header Files\cyapicallbacks.h</v>
 <v>PSoC_FatFs\baremetal\Source Files\main.c</v>
 <v>PSoC_FatFs\baremetal\Generated_Source\PSoC5</v>
-<v>PSoC_FatFs\FatFs</v>
-<v>PSoC_FatFs\FatFs\Header Files</v>
-<v>PSoC_FatFs\FatFs\Header Files\diskio.h</v>
-<v>PSoC_FatFs\FatFs\Header Files\ff.h</v>
-<v>PSoC_FatFs\FatFs\Header Files\ffconf.h</v>
-<v>PSoC_FatFs\FatFs\Source Files</v>
-<v>PSoC_FatFs\FatFs\Source Files\diskio.c</v>
-<v>PSoC_FatFs\FatFs\Source Files\ff.c</v>
-<v>PSoC_FatFs\FatFs\Source Files\ffsystem.c</v>
-<v>PSoC_FatFs\FatFs\Source Files\ffunicode.c</v>
-<v>PSoC_FatFs\FatFs\00history.txt</v>
-<v>PSoC_FatFs\FatFs\00readme.txt</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>PSoC_FatFs</v>
@@ -58,21 +53,16 @@
 <v>PSoC_FatFs\baremetal\baremetal.cydwr\Directives</v>
 <v>PSoC_FatFs\baremetal\baremetal.cydwr\Flash Security</v>
 <v>PSoC_FatFs\baremetal\baremetal.cydwr\EEPROM</v>
+<v>PSoC_FatFs\baremetal\FatFs</v>
+<v>PSoC_FatFs\baremetal\FatFs\diskio.c</v>
+<v>PSoC_FatFs\baremetal\FatFs\diskio.h</v>
+<v>PSoC_FatFs\baremetal\FatFs\ff.c</v>
+<v>PSoC_FatFs\baremetal\FatFs\ff.h</v>
+<v>PSoC_FatFs\baremetal\FatFs\ffconf.h</v>
+<v>PSoC_FatFs\baremetal\FatFs\ffsystem.c</v>
 <v>PSoC_FatFs\baremetal\Header Files</v>
 <v>PSoC_FatFs\baremetal\Source Files</v>
 <v>PSoC_FatFs\baremetal\Generated_Source</v>
-<v>PSoC_FatFs\FatFs</v>
-<v>PSoC_FatFs\FatFs\Header Files</v>
-<v>PSoC_FatFs\FatFs\Header Files\diskio.h</v>
-<v>PSoC_FatFs\FatFs\Header Files\ff.h</v>
-<v>PSoC_FatFs\FatFs\Header Files\ffconf.h</v>
-<v>PSoC_FatFs\FatFs\Source Files</v>
-<v>PSoC_FatFs\FatFs\Source Files\diskio.c</v>
-<v>PSoC_FatFs\FatFs\Source Files\ff.c</v>
-<v>PSoC_FatFs\FatFs\Source Files\ffsystem.c</v>
-<v>PSoC_FatFs\FatFs\Source Files\ffunicode.c</v>
-<v>PSoC_FatFs\FatFs\00history.txt</v>
-<v>PSoC_FatFs\FatFs\00readme.txt</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -81,14 +71,12 @@
 <v>PSoC_FatFs\baremetal</v>
 <v>PSoC_FatFs\baremetal\TopDesign</v>
 <v>PSoC_FatFs\baremetal\TopDesign\TopDesign.cysch</v>
-<v>PSoC_FatFs\FatFs</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>PSoC_FatFs</v>
 <v>PSoC_FatFs\baremetal</v>
 <v>PSoC_FatFs\baremetal\TopDesign</v>
 <v>PSoC_FatFs\baremetal\TopDesign\TopDesign.cysch</v>
-<v>PSoC_FatFs\FatFs</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -110,23 +98,26 @@
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\diskio.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\ff.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\ffsystem.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\LED_0.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SD_Clock.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SD_CS.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SD_MISO.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SD_MOSI.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SD_SCLK.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD_INT.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD_PM.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.elf</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.hex</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.map</v>
 <v>PSoC_FatFs\baremetal\baremetal.gpdsc</v>
 <v>PSoC_FatFs\baremetal\baremetal.rpt</v>
 <v>PSoC_FatFs\baremetal\baremetal_timing.html</v>
-<v>PSoC_FatFs\FatFs</v>
-<v>PSoC_FatFs\FatFs\CortexM3</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\Listing Files\diskio.lst</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\Listing Files\ff.lst</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\Listing Files\ffsystem.lst</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\Listing Files\ffunicode.lst</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\FatFs.a</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>PSoC_FatFs</v>
@@ -146,23 +137,26 @@
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\diskio.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\ff.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\ffsystem.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\LED_0.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SD_Clock.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SD_CS.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SD_MISO.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SD_MOSI.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SD_SCLK.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD_INT.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD_PM.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.elf</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.hex</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.map</v>
 <v>PSoC_FatFs\baremetal\baremetal.gpdsc</v>
 <v>PSoC_FatFs\baremetal\baremetal.rpt</v>
 <v>PSoC_FatFs\baremetal\baremetal_timing.html</v>
-<v>PSoC_FatFs\FatFs</v>
-<v>PSoC_FatFs\FatFs\CortexM3</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\Listing Files\diskio.lst</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\Listing Files\ff.lst</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\Listing Files\ffsystem.lst</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\Listing Files\ffunicode.lst</v>
-<v>PSoC_FatFs\FatFs\CortexM3\ARM_GCC_541\Debug\FatFs.a</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -178,6 +172,10 @@
 <v>PSoC_FatFs\baremetal\CY8C58LP Family Datasheet</v>
 <v>PSoC_FatFs\baremetal\System Reference Guides</v>
 <v>PSoC_FatFs\baremetal\System Reference Guides\cy_boot_v5_80</v>
+<v>PSoC_FatFs\baremetal\cy_clock_v2_20.pdf</v>
+<v>PSoC_FatFs\baremetal\cy_pins_v2_20</v>
+<v>PSoC_FatFs\baremetal\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSoC_FatFs\baremetal\SPI_Master_v2_50.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>PSoC_FatFs</v>
@@ -186,6 +184,10 @@
 <v>PSoC_FatFs\baremetal\CY8C58LP Family Datasheet</v>
 <v>PSoC_FatFs\baremetal\System Reference Guides</v>
 <v>PSoC_FatFs\baremetal\System Reference Guides\cy_boot_v5_80</v>
+<v>PSoC_FatFs\baremetal\cy_clock_v2_20.pdf</v>
+<v>PSoC_FatFs\baremetal\cy_pins_v2_20</v>
+<v>PSoC_FatFs\baremetal\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSoC_FatFs\baremetal\SPI_Master_v2_50.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -199,6 +201,11 @@
 <dataGuid v="6c335137-fa19-46ce-bc2d-2fbeb6d5f2a2">
 <CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2 type_name="CyDesigner.Common.ProjMgmt.GUI.CyDependenciesCustomData" version="1">
 <dictName v=".\baremetal.cydsn\baremetal.cyprj">
+<listName>
+<v>.\FatFs.cylib\FatFs.cyprj</v>
+</listName>
+</dictName>
+<dictName v=".\FatFs.cylib\FatFs.cyprj">
 <listName />
 </dictName>
 </CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2>
@@ -206,7 +213,23 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\baremetal.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\baremetal.cydsn\main.c" />
+<name v=".\baremetal.cydsn\baremetal.cydwr" />
+<name v="..\FatFs\diskio.c" />
+<name v="..\FatFs\diskio.h" />
+<name v="..\FatFs\ff.c" />
+<name v="..\FatFs\ff.h" />
+<name v="..\FatFs\ffconf.h" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1267, 1723" SelectedTabbedMdiWindow="01b20925-a3ce-42b6-becb-6a09960505bb"><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\TopDesign\TopDesign.cysch" Guid="e63e409f-a997-4795-8575-9f67d92603e3" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\main.c" Guid="01b20925-a3ce-42b6-becb-6a09960505bb" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\baremetal.cydwr" Guid="49e2770f-f90d-48d8-9b0c-93b4388e0556" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\diskio.c" Guid="d675c875-62ea-46bf-be6e-7e56f4cff9fb" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\diskio.h" Guid="8932d2ce-abb9-4afb-a1af-652fc92f1584" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\ff.c" Guid="8fc21da8-a7e9-4829-9e02-8b1566858b67" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\ff.h" Guid="9f8d46a0-1b2f-47b1-b15e-119a548a0c31" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\ffconf.h" Guid="cafb9cb4-7e9b-4088-a0f9-611956439523" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9c23ab0e-12e1-45f8-848c-3a409c308313" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

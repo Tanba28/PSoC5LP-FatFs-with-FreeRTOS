@@ -18,6 +18,31 @@
   <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\cyfitteriar.inc" value="HEADER;;;;;" />
   <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\cyfitter.h" value="HEADER;;;;;" />
   <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\cydisabledsheets.h" value="HEADER;;;;;" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_Clock.c" value="SOURCE_C;CortexM3;;;;SD_Clock" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_Clock.h" value="HEADER;;;;;SD_Clock" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SPIM_SD.c" value="SOURCE_C;CortexM3;;;;SPIM_SD" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SPIM_SD.h" value="HEADER;;;;;SPIM_SD" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SPIM_SD_PM.c" value="SOURCE_C;CortexM3;;;;SPIM_SD" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SPIM_SD_INT.c" value="SOURCE_C;CortexM3;;;;SPIM_SD" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SPIM_SD_PVT.h" value="HEADER;;;;;SPIM_SD" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_SCLK_aliases.h" value="HEADER;;;;;SD_SCLK" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_SCLK.c" value="SOURCE_C;CortexM3;;;;SD_SCLK" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_SCLK.h" value="HEADER;;;;;SD_SCLK" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_MOSI_aliases.h" value="HEADER;;;;;SD_MOSI" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_MOSI.c" value="SOURCE_C;CortexM3;;;;SD_MOSI" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_MOSI.h" value="HEADER;;;;;SD_MOSI" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_MISO_aliases.h" value="HEADER;;;;;SD_MISO" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_MISO.c" value="SOURCE_C;CortexM3;;;;SD_MISO" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_MISO.h" value="HEADER;;;;;SD_MISO" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_CS_aliases.h" value="HEADER;;;;;SD_CS" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_CS.c" value="SOURCE_C;CortexM3;;;;SD_CS" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\SD_CS.h" value="HEADER;;;;;SD_CS" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\LED_0_aliases.h" value="HEADER;;;;;LED_0" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\LED_0.c" value="SOURCE_C;CortexM3;;;;LED_0" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\LED_0.h" value="HEADER;;;;;LED_0" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\LED_1_aliases.h" value="HEADER;;;;;LED_1" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\LED_1.c" value="SOURCE_C;CortexM3;;;;LED_1" />
+  <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\LED_1.h" value="HEADER;;;;;LED_1" />
   <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\cy_em_eeprom.c" value="SOURCE_C;CortexM3;;;;Em_EEPROM_Dynamic" />
   <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\cy_em_eeprom.h" value="HEADER;;;;;Em_EEPROM_Dynamic" />
   <file name="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\codegentemp\cm3gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
