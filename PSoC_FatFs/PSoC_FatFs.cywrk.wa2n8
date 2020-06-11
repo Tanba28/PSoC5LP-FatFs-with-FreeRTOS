@@ -112,6 +112,28 @@
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD_INT.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD_PM.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\timer_clock.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_PM.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_audio.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_boot.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_cdc.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_cls.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_descr.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_Dm.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_Dp.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_drv.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_ep1_dma.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_ep2_dma.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_ep3_dma.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_episr.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_hid.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_midi.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_msc.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_pm.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_std.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_vnd.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.elf</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.hex</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.map</v>
@@ -151,6 +173,28 @@
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD_INT.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_SD_PM.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\timer_clock.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_PM.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_audio.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_boot.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_cdc.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_cls.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_descr.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_Dm.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_Dp.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_drv.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_ep1_dma.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_ep2_dma.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_ep3_dma.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_episr.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_hid.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_midi.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_msc.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_pm.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_std.lst</v>
+<v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_vnd.lst</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.elf</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.hex</v>
 <v>PSoC_FatFs\baremetal\CortexM3\ARM_GCC_541\Debug\baremetal.map</v>
@@ -172,10 +216,14 @@
 <v>PSoC_FatFs\baremetal\CY8C58LP Family Datasheet</v>
 <v>PSoC_FatFs\baremetal\System Reference Guides</v>
 <v>PSoC_FatFs\baremetal\System Reference Guides\cy_boot_v5_80</v>
-<v>PSoC_FatFs\baremetal\cy_clock_v2_20.pdf</v>
+<v>PSoC_FatFs\baremetal\cy_clock_v2_20</v>
+<v>PSoC_FatFs\baremetal\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>PSoC_FatFs\baremetal\cy_pins_v2_20</v>
 <v>PSoC_FatFs\baremetal\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>PSoC_FatFs\baremetal\SPI_Master_v2_50.pdf</v>
+<v>PSoC_FatFs\baremetal\Timer_v2_80.pdf</v>
+<v>PSoC_FatFs\baremetal\USBFS_v3_20.pdf</v>
+<v>PSoC_FatFs\baremetal\ZeroTerminal.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>PSoC_FatFs</v>
@@ -184,10 +232,14 @@
 <v>PSoC_FatFs\baremetal\CY8C58LP Family Datasheet</v>
 <v>PSoC_FatFs\baremetal\System Reference Guides</v>
 <v>PSoC_FatFs\baremetal\System Reference Guides\cy_boot_v5_80</v>
-<v>PSoC_FatFs\baremetal\cy_clock_v2_20.pdf</v>
+<v>PSoC_FatFs\baremetal\cy_clock_v2_20</v>
+<v>PSoC_FatFs\baremetal\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>PSoC_FatFs\baremetal\cy_pins_v2_20</v>
 <v>PSoC_FatFs\baremetal\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>PSoC_FatFs\baremetal\SPI_Master_v2_50.pdf</v>
+<v>PSoC_FatFs\baremetal\Timer_v2_80.pdf</v>
+<v>PSoC_FatFs\baremetal\USBFS_v3_20.pdf</v>
+<v>PSoC_FatFs\baremetal\ZeroTerminal.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -229,7 +281,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1267, 1723" SelectedTabbedMdiWindow="01b20925-a3ce-42b6-becb-6a09960505bb"><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\TopDesign\TopDesign.cysch" Guid="e63e409f-a997-4795-8575-9f67d92603e3" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\main.c" Guid="01b20925-a3ce-42b6-becb-6a09960505bb" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\baremetal.cydwr" Guid="49e2770f-f90d-48d8-9b0c-93b4388e0556" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\diskio.c" Guid="d675c875-62ea-46bf-be6e-7e56f4cff9fb" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\diskio.h" Guid="8932d2ce-abb9-4afb-a1af-652fc92f1584" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\ff.c" Guid="8fc21da8-a7e9-4829-9e02-8b1566858b67" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\ff.h" Guid="9f8d46a0-1b2f-47b1-b15e-119a548a0c31" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\ffconf.h" Guid="cafb9cb4-7e9b-4088-a0f9-611956439523" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9c23ab0e-12e1-45f8-848c-3a409c308313" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1267, 1723" SelectedTabbedMdiWindow="d675c875-62ea-46bf-be6e-7e56f4cff9fb"><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\TopDesign\TopDesign.cysch" Guid="e63e409f-a997-4795-8575-9f67d92603e3" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\main.c" Guid="01b20925-a3ce-42b6-becb-6a09960505bb" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\PSoC_FatFs\baremetal.cydsn\baremetal.cydwr" Guid="49e2770f-f90d-48d8-9b0c-93b4388e0556" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\diskio.c" Guid="d675c875-62ea-46bf-be6e-7e56f4cff9fb" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\diskio.h" Guid="8932d2ce-abb9-4afb-a1af-652fc92f1584" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\ff.c" Guid="8fc21da8-a7e9-4829-9e02-8b1566858b67" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\ff.h" Guid="9f8d46a0-1b2f-47b1-b15e-119a548a0c31" /><DocumentWindow Key="C:\Users\wa2n8\Desktop\PSoC\PSoC5LP-FatFs-with-FreeRTOS\FatFs\ffconf.h" Guid="cafb9cb4-7e9b-4088-a0f9-611956439523" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9c23ab0e-12e1-45f8-848c-3a409c308313" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

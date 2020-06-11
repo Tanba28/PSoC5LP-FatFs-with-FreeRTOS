@@ -16,8 +16,8 @@
    Module Private Functions
 
 ---------------------------------------------------------------------------*/
-#define FCLK_SLOW() 
-#define FCLK_FAST()
+#define FCLK_SLOW() {SD_Clock_SetDivider(160);}
+#define FCLK_FAST() {SD_Clock_SetDivider(1);}
 #define CS_HI() {SD_CS_Write(1);}
 #define CS_LOW() {SD_CS_Write(0);}
 
@@ -277,7 +277,7 @@ DSTATUS disk_initialize (
 
 	if (Stat & STA_NODISK) return Stat;	/* Is card existing in the soket? */
 
-	//FCLK_SLOW();
+	FCLK_SLOW();
 	for (n = 10; n; n--) xchg_spi(0xFF);	/* Send 80 dummy clocks */
 
 	ty = 0;
@@ -316,7 +316,7 @@ DSTATUS disk_initialize (
 	deselect();
 
 	if (ty) {			/* OK */
-		//FCLK_FAST();			/* Set fast clock */
+		FCLK_FAST();			/* Set fast clock */
 		Stat &= ~STA_NOINIT;	/* Clear STA_NOINIT flag */
 	} else {			/* Failed */
 		Stat = STA_NOINIT;
