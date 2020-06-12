@@ -3,11 +3,12 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="PSoC_FatFs" persistent="PSoC_FatFs.cywrk" platform="NOT_USED">
-<current_project name=".\baremetal.cydsn\baremetal.cyprj" />
+<current_project name=".\DMA.cydsn\DMA.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
 <v>.\baremetal.cydsn\baremetal.cyprj</v>
+<v>.\DMA.cydsn\DMA.cyprj</v>
 </projects>
 <workspace_id v="40f55c14-dbb0-465b-92e7-a8acc9c0bc9d" />
 <WriteAppVersionLastSavedWith v="4.2.0.641" />

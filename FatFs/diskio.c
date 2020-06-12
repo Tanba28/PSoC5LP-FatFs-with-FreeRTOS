@@ -16,11 +16,28 @@
    Module Private Functions
 
 ---------------------------------------------------------------------------*/
-#define FCLK_SLOW() {SD_Clock_SetDivider(160);}
-#define FCLK_FAST() {SD_Clock_SetDivider(1);}
+#define FCLK_SLOW() {SD_Clock_SetDividerValue(160);}
+#define FCLK_FAST() {SD_Clock_SetDividerValue(2);}
 #define CS_HI() {SD_CS_Write(1);}
 #define CS_LOW() {SD_CS_Write(0);}
 
+#define SD_RX_DMA_BYTES_PER_BURST 1
+#define SD_RX_DMA_REQUEST_PER_BURST 1
+#define SD_RX_DMA_SRC_BASE (CYDEV_PERIPH_BASE)
+#define SD_RX_DMA_DST_BASE (CYDEV_SRAM_BASE)
+
+#define SD_TX_DMA_BYTES_PER_BURST 1
+#define SD_TX_DMA_REQUEST_PER_BURST 1
+#define SD_TX_DMA_SRC_BASE (CYDEV_SRAM_BASE)
+#define SD_TX_DMA_DST_BASE (CYDEV_PERIPH_BASE)
+
+static uint8_t SD_RX_DMA_Channel = 0;
+static uint8_t SD_RX_DMA_TD[1];
+
+static uint8_t SD_TX_DMA_Channel = 0;
+static uint8_t SD_TX_DMA_TD[1];
+
+static uint8_t dummy[1] = { 0xff };
 /* MMC/SD command */
 #define CMD0	(0)			/* GO_IDLE_STATE */
 #define CMD1	(1)			/* SEND_OP_COND (MMC) */
@@ -50,6 +67,29 @@ DSTATUS Stat = STA_NOINIT;	/* Physical drive status */
 static
 BYTE CardType;			/* Card type flags */
 
+static volatile CYBIT transfer_flag = 0;
+
+/*-----------------------------------------------------------------------*/
+/* DMA Function                                                          */
+/*-----------------------------------------------------------------------*/
+CY_ISR(SD_RX_ISR){
+    transfer_flag = 0;
+}
+
+static
+void init_dma(){
+    SD_RX_ISR_StartEx(SD_RX_ISR);
+    
+    SPIM_SD_Start();
+    SD_RX_DMA_Channel = SD_RX_DMA_DmaInitialize(SD_RX_DMA_BYTES_PER_BURST, SD_RX_DMA_REQUEST_PER_BURST, HI16(SD_RX_DMA_SRC_BASE), HI16(SD_RX_DMA_DST_BASE));
+    SD_RX_DMA_TD[0] = CyDmaTdAllocate();
+    CyDmaClearPendingDrq(SD_RX_DMA_Channel);
+    
+    SD_TX_DMA_Channel = SD_TX_DMA_DmaInitialize(SD_TX_DMA_BYTES_PER_BURST, SD_TX_DMA_REQUEST_PER_BURST, HI16(SD_TX_DMA_SRC_BASE), HI16(SD_TX_DMA_DST_BASE));
+    SD_TX_DMA_TD[0] = CyDmaTdAllocate();
+    CyDmaClearPendingDrq(SD_TX_DMA_Channel);    
+}
+
 /*-----------------------------------------------------------------------*/
 /* SPI Function                                                          */
 /*-----------------------------------------------------------------------*/
@@ -58,6 +98,7 @@ void init_spi (void)
 {
     //FCLK_SLOW();                //set to slow clock
     CS_HI();
+    init_dma();
 	CyDelay(10);
 }
 
@@ -79,9 +120,33 @@ void rcvr_spi_multi (
 	UINT btr		/* Number of bytes to receive (even number) */
 )
 {
+    /*
     for(UINT i=0;i<btr;i++){
         buff[i] = xchg_spi(0xFF);
     }
+    */   
+    CyDmaTdSetConfiguration(SD_TX_DMA_TD[0],btr,CY_DMA_DISABLE_TD,SD_TX_DMA__TD_TERMOUT_EN);
+    CyDmaTdSetAddress(SD_TX_DMA_TD[0],LO16((uint32)(dummy)),LO16((uint32)SPIM_SD_TXDATA_PTR));
+    CyDmaChSetInitialTd(SD_TX_DMA_Channel,SD_TX_DMA_TD[0]);
+    
+    CyDmaTdSetConfiguration(SD_RX_DMA_TD[0],btr,CY_DMA_DISABLE_TD,SD_RX_DMA__TD_TERMOUT_EN|TD_INC_DST_ADR);
+    CyDmaTdSetAddress(SD_RX_DMA_TD[0],LO16((uint32)(SPIM_SD_RXDATA_PTR)),LO16((uint32)buff));
+    CyDmaChSetInitialTd(SD_RX_DMA_Channel,SD_RX_DMA_TD[0]);    
+    
+    transfer_flag = 1;
+    
+    CyDmaClearPendingDrq(SD_TX_DMA_Channel);
+    CyDmaClearPendingDrq(SD_RX_DMA_Channel);
+    
+    CyDmaChEnable(SD_TX_DMA_Channel, 1);
+    CyDmaChEnable(SD_RX_DMA_Channel, 1);
+    
+    CyDmaChSetRequest(SD_TX_DMA_Channel,CPU_REQ);
+    
+    while(transfer_flag);
+    
+    CyDmaChSetRequest(SD_TX_DMA_Channel,CPU_TERM_CHAIN);
+    CyDmaChSetRequest(SD_RX_DMA_Channel,CPU_TERM_CHAIN);
 }
 
 static
@@ -90,9 +155,35 @@ void xmit_spi_multi (
 	UINT btx			/* Number of bytes to send (even number) */
 )
 {
+    /*
     for(UINT i=0;i<btx;i++){
         xchg_spi(buff[i]);
     }
+    */
+    
+    CyDmaTdSetConfiguration(SD_TX_DMA_TD[0],btx,CY_DMA_DISABLE_TD,SD_TX_DMA__TD_TERMOUT_EN|TD_INC_SRC_ADR);
+    CyDmaTdSetAddress(SD_TX_DMA_TD[0],LO16((uint32)(buff)),LO16((uint32)SPIM_SD_TXDATA_PTR));
+    CyDmaChSetInitialTd(SD_TX_DMA_Channel,SD_TX_DMA_TD[0]);
+    
+    CyDmaTdSetConfiguration(SD_RX_DMA_TD[0],btx,CY_DMA_DISABLE_TD,SD_RX_DMA__TD_TERMOUT_EN);
+    CyDmaTdSetAddress(SD_RX_DMA_TD[0],LO16((uint32)(SPIM_SD_RXDATA_PTR)),LO16((uint32)dummy));
+    CyDmaChSetInitialTd(SD_RX_DMA_Channel,SD_RX_DMA_TD[0]);    
+    
+    transfer_flag = 1;
+    
+    CyDmaClearPendingDrq(SD_TX_DMA_Channel);
+    CyDmaClearPendingDrq(SD_RX_DMA_Channel);
+    
+    CyDmaChEnable(SD_TX_DMA_Channel, 1);
+    CyDmaChEnable(SD_RX_DMA_Channel, 1);
+    
+    CyDmaChSetRequest(SD_TX_DMA_Channel,CPU_REQ);
+    
+  
+    while(transfer_flag);
+    
+    CyDmaChSetRequest(SD_TX_DMA_Channel,CPU_TERM_CHAIN);
+    CyDmaChSetRequest(SD_RX_DMA_Channel,CPU_TERM_CHAIN);
 }
 
 /*-----------------------------------------------------------------------*/
